@@ -1,0 +1,26 @@
+{
+  "name": "annie",
+  "version": "2.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Animesh Pathak",
+  "license": "ISC",
+  "keywords": [
+    "discordbot",
+    "nodejs"
+  ],
+  "dependencies": {
+    "canvacord": "^5.2.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.3",
+    "mongose": "^0.0.2-security"
+  },
+  "devDependencies": {}
+}
